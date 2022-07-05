@@ -7,9 +7,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-img{
+/* img{
     width: 100%;
-}
+} */
 
 h1{
     font-size: 60px;
@@ -23,6 +23,7 @@ h2{
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
+    color: #18191F;
 }
 
 h3{
@@ -43,6 +44,7 @@ p{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    color: #18191F;
 }
 
 .button{
@@ -63,6 +65,7 @@ header{
     width: 100%;
     height: 100vh;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 header .left-side, header .right-side{
@@ -91,4 +94,109 @@ header .left-side P{
 
 header .right-side img{
     width: 90%;
+}
+
+.about-me{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/7.png);
+    background-position-x: 100%;
+    margin-bottom: 80px;
+}
+
+.about-me .left-side, .about-me .right-side{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.about-me .left-side img{
+    width: 55%;
+    padding-left: 20%;
+}
+
+.about-me .right-side{
+    padding-bottom: 10%;
+}
+
+.about-me .right-side h3{
+    color: #707070;
+    padding-bottom: 40px;
+}
+
+.about-me .right-side p{
+    color: #18191F;
+    padding-bottom: 80px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+.heading p{
+    color: #18191F;
+    margin-bottom: 40px;
+}
+
+.recipe{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.recipe .half-width{
+    width: 40%;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.recipe .half-width img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.recipe .half-width h4{
+    color: #18191F;
+    margin-bottom: 20px;
+}
+
+.recipe .half-width p{
+    color: #18191F;
+    margin-bottom: 25px;
+}
+
+.fan{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 60px 160px;
+    margin: 60px;
+}
+
+footer{
+    text-align: center;
+    background: #0B0D17;
+}
+
+footer h3{
+    color: #5B5B5B;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+footer p{
+    color: #fff;
+    padding-bottom: 120px;
 }
