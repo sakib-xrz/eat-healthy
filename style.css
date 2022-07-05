@@ -90,6 +90,7 @@ header .left-side h1{
 header .left-side P{
     color: #828282;
     padding-bottom: 60px;
+    width: 355px;
 }
 
 header .right-side img{
@@ -128,6 +129,7 @@ header .right-side img{
 .about-me .right-side p{
     color: #18191F;
     padding-bottom: 80px;
+    width: 500px;
 }
 
 .heading{
@@ -141,7 +143,9 @@ header .right-side img{
 
 .heading p{
     color: #18191F;
-    margin-bottom: 40px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .recipe{
@@ -229,7 +233,7 @@ footer p{
     header .left-side {
         padding-left: 0;
         padding: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         text-align: center;
     }
     
@@ -241,6 +245,7 @@ footer p{
     
     header .left-side P{
         padding-bottom: 60px;
+        width: auto;
     }
     
     header .right-side img{
@@ -265,7 +270,7 @@ footer p{
     }
     
     .about-me .right-side{
-        padding-bottom: 10%;
+        padding-bottom: 15%;
         text-align: center;
     }
     
@@ -280,6 +285,7 @@ footer p{
         padding-bottom: 50px;
         padding-left: 20px;
         padding-right: 20px;
+        width: auto;
     }
 
     .heading h3{
@@ -292,6 +298,7 @@ footer p{
         color: #18191F;
         margin-bottom: 40px;
         padding: 0px 20px;
+        width: auto;
     }
     
     .recipe{
@@ -341,6 +348,10 @@ footer p{
         margin-right: 60px;
         margin-bottom: 60px;
         margin-top: 0;
+    }
+
+    .fan .fan-value{
+        margin: 15%;
     }
 
     footer{
